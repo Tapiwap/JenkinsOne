@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker true
+        docker "true"
     }
 
 //     tools {
