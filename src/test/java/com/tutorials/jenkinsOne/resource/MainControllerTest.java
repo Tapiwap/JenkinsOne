@@ -14,8 +14,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainControllerTest {
 
     private static Logger logger = LoggerFactory.getLogger(MainControllerTest.class);
-//    private MainController mainController;
 
+    // Unit Test
     @Test
     void getMessage() {
         MainController mainController = new MainController();
