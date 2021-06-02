@@ -13,6 +13,16 @@ pipeline {
                 bat "mvn install"
             }
         }
+
+        stage ("docker build") {
+            agent {
+                dockerfile "true"
+            }
+
+            steps {
+                bat "docker images"
+            }
+        }
     }
 
     post {
