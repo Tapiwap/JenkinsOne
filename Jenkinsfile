@@ -10,9 +10,7 @@ pipeline {
             steps {
                 bat "mvn -version"
                 bat "mvn clean"
-                bat "mvn compile"
-                bat "mvn test"
-                bat "mvn package"
+                bat "mvn install"
             }
 
             post {
